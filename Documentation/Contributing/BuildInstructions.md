@@ -5,28 +5,22 @@ So, you're ready to build? Building is easy, just a few steps and you're there!
 All you'll need is a build of Clang.
 
 ### macOS
-Install Homebrew
-```zsh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-```zsh
-brew install clang
-```
+> Coming Soon!
 
 ### Linux
 
 #### Arch/Manjaro
 ```zsh
-sudo pacman -S clang base-devel
+sudo pacman -S gcc base-devel
 ```
 
 #### Debian/Ubuntu/Kali/Parrot
 ```zsh
-sudo apt install clang build-essential
+sudo apt install gcc build-essential
 ```
 
 #### Other
-If none of these were helpful please visit [this website](https://clang.llvm.org/get_started.html)
+If none of these were helpful please visit [this website](https://gcc.gnu.org/install/)
 
 Make sure you also have make!
 
